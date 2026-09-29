@@ -1,4 +1,4 @@
-> Personal recovery fork maintained by andycowan. See [RECOVERY.md](RECOVERY.md) for provenance, supported platforms and limitations.
+> Personal recovery fork maintained by pepax. See [RECOVERY.md](RECOVERY.md) for provenance, supported platforms and limitations.
 
 <div align="center">
 
@@ -85,7 +85,7 @@ Via [lazy.nvim](https://github.com/folke/lazy.nvim):
 ```lua
 require("lazy").setup({
   {
-    "mistweaverco/kulala.nvim",
+    "pepax/kulala.nvim",
     -- Load before session save/restore so VimLeavePre and SessionLoadPost hooks are registered.
     event = { "SessionLoadPost", "VimLeavePre" },
     keys = {
@@ -99,7 +99,7 @@ require("lazy").setup({
     opts = {
       kulala_core = {
         -- Optional path to the kulala-core executable
-        -- (https://github.com/mistweaverco/kulala-core).
+        -- (https://github.com/pepax/kulala-core).
         -- When set, this path is used exclusively.
         -- When nil (default), auto-download and
         -- use kulala-core from GitHub releases based on the user's OS and architecture.
@@ -118,7 +118,7 @@ require("lazy").setup({
         -- - Windows: %APPDATA%\kulala-core
         data_dir = nil,
         -- Optional override for download url
-        download_url = "https://github.com/mistweaverco/kulala-core/releases/download/%s/%s",
+        download_url = "https://github.com/pepax/kulala-core/releases/download/%s/%s",
         -- "curl" or "wget" or full path to "curl" or "wget" executable.
         download_tool = "curl",
       },

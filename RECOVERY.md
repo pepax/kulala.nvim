@@ -1,13 +1,13 @@
 # Personal recovery fork
 
-Recovered 27 September 2026 for andycowan after the upstream repositories became private.
+Recovered 27 September 2026 for pepax after the upstream repositories became private.
 Source: 3dyuval/kulala.nvim; verified identical to installed dcad056 source. Original licences and attribution are retained.
 
 Upstream workflows are preserved in `.github/upstream-workflows` but are not active; they assume upstream publishing infrastructure.
 
-The initial Core release is `0.37.0-andycowan.1`, built from recovered source, not a claim that the source matches upstream 0.37.0. Only macOS Apple Silicon is initially built and tested. Other platforms need separate builds and validation.
+The initial Core release is `0.37.0-pepax.1`, built from recovered source, not a claim that the source matches upstream 0.37.0. Only macOS Apple Silicon is initially built and tested. Other platforms need separate builds and validation.
 
 ## Lazy installation
 
-Use `andycowan/kulala.nvim` in place of `mistweaverco/kulala.nvim`. Existing options and shortcuts can stay. Core and parser downloads use andycowan repositories.
+Use `pepax/kulala.nvim` in place of `mistweaverco/kulala.nvim`. Existing options and shortcuts can stay. Core and parser downloads use pepax repositories.
 Parser registration preserves existing runtime-path precedence rather than moving the shared site directory behind bundled Neovim queries.
